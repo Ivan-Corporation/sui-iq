@@ -197,7 +197,7 @@ export default function IQTestScreen({
               </motion.div>
 
               <div>
-                <h2 className="text-9xl font-black text-white mb-4">
+                <h2 className="text-3xl font-black text-white mb-4">
                   The Oracle Has Decided
                 </h2>
                 <p className="text-white/70 text-lg leading-relaxed">
