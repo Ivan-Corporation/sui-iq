@@ -7,7 +7,7 @@ async function main() {
     url: "https://fullnode.testnet.sui.io:443",
   });
 
-  const keypair = Ed25519Keypair.generate(); // Replace with your real keypair in prod
+  const keypair = Ed25519Keypair.generate();
   const address = keypair.toSuiAddress();
   console.log("Using address:", address);
 

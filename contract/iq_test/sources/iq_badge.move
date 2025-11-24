@@ -91,6 +91,20 @@ public entry fun mint_badge(registry: &mut Registry, r: &Random, ctx: &mut TxCon
     transfer::transfer(badge, sender_addr);
 }
 
+
+// METADATA IF WANT MORE
+// public entry fun init_display(package: &mut Package, ctx: &mut TxContext) {
+//     display::new_display<IQBadge>(
+//         package,
+//         vec![
+//             ("name", "{iq} IQ Badge"),
+//             ("description", "This is your randomly generated IQ badge."),
+//             ("image_url", "https://yourdomain.com/iq_{iq}.png"),
+//         ],
+//         ctx
+//     );
+// }
+
 //
 // Check if an address already minted a badge
 //
