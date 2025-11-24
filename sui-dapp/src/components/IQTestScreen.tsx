@@ -149,7 +149,7 @@ export default function IQTestScreen({
               </motion.div>
 
               <div className="space-y-4">
-                <h3 className="text-9xl font-bold text-white">
+                <h3 className="text-3xl font-bold text-white">
                   Contacting the Void...
                 </h3>
                 <div className="text-white/80 space-y-2">
